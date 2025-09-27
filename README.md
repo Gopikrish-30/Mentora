@@ -5,7 +5,7 @@
 
 > **Mentora** is an AI-powered platform designed to revolutionize corporate training by transforming course creation from a process that takes weeks into one that takes minutes.
 
-[cite_start]This project was developed by the team **Strawhats** for the **Code O'Clock 24-Hour National Level Hackathon**, where it proudly secured 3rd place. [cite: 3, 5]
+This project was developed by the team **Strawhats** for the **Code O'Clock 24-Hour National Level Hackathon**, where it proudly secured 3rd place. 
 
 ---
 
