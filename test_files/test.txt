@@ -1,0 +1,10 @@
+Test PDF content for extraction.
+This is a simple text file that we'll convert to PDF.
+It contains multiple lines and some content about machine learning.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.
+
+Key concepts:
+1. Supervised Learning
+2. Unsupervised Learning
+3. Reinforcement Learning
