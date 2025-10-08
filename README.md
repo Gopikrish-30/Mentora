@@ -11,38 +11,51 @@ This project was developed by the team **Strawhats** for the **Code O'Clock 24-H
 
 ## 🎯 The Problem
 
-[cite_start]In corporate training, course creation is slow, rigid, and disconnected from learners needs. [cite: 9] Trainers spend weeks writing objectives, splitting content into lessons, preparing slides, designing quizzes, and recording videos. [cite_start]By the time the course is complete, learners have often moved ahead, leaving the material outdated and irrelevant. [cite: 10] [cite_start]Moreover, the lack of reusability makes the process repetitive and inefficient, while the final courses frequently fail to connect with real-world job requirements. [cite: 11]
+In corporate training, course creation is slow, rigid, and disconnected from learners needs. Trainers spend weeks writing objectives, splitting content into lessons, preparing slides, designing quizzes, and recording videos. By the time the course is complete, learners have often moved ahead, leaving the material outdated and irrelevant. Moreover, the lack of reusability makes the process repetitive and inefficient, while the final courses frequently fail to connect with real-world job requirements.
 
 ## ✨ Our Solution
 
-[cite_start]We propose an AI-powered course creation system that enables users to generate fully customized learning experiences from diverse content inputs such as text, PDFs, and videos. [cite: 14] [cite_start]The system analyzes the uploaded material and automatically designs a tailored course, while giving users complete control over personalization. [cite: 15]
+We propose an AI-powered course creation system that enables users to generate fully customized learning experiences from diverse content inputs such as text, PDFs, and videos. The system analyzes the uploaded material and automatically designs a tailored course, while giving users complete control over personalization. 
 
 ## 🚀 Key Features
 
-* [cite_start]**Flexible Content Formats:** Choose between micro-lessons, short videos, PPTs or PDFs. [cite: 17]
-* [cite_start]**Continuous Assessments:** Add quizzes that are essential for the user to test their skills. [cite: 18]
-* [cite_start]**Multilingual Support:** Generate courses in multiple languages for global accessibility. [cite: 19]
-* **AI-Monitored Quizzes:** An innovative feature to ensure learner engagement and assessment integrity.
-* [cite_start]**Interactive Chatbot (Future Scope):** Enhance learner engagement with conversational support. [cite: 20]
+**Flexible Content Formats:** Choose between micro-lessons, short videos, PPTs or PDFs. 
+**Continuous Assessments:** Add quizzes that are essential for the user to test their skills.
+**Multilingual Support:** Generate courses in multiple languages for global accessibility.
+**AI-Monitored Quizzes:** An innovative feature to ensure learner engagement and assessment integrity.
+**Interactive Chatbot (Future Scope):** Enhance learner engagement with conversational support.
 
 ## 📸 Screenshots
 
 Here is a look at the Mentora prototype in action.
 
-| Step 1: Describe Course | Step 2: Upload Content | Step 4: View Outcome |
-| :---: | :---: | :---: |
-| ![Step 1](assets/image_ce3a7d.png) | ![Step 2](assets/image_ce3af4.png) | ![Step 4](assets/image_ce3b19.png) |
+| Step 1: Describe Course |
+| :---: |
+<img width="680" height="680" alt="Screenshot 2025-10-08 at 9 11 29 PM" src="https://github.com/user-attachments/assets/e21782ea-cf48-43ec-8352-d0fd54c0ba4f" />
+
+| Course With Quiz |
+| :---: |
+<img width="680" height="680" alt="Screenshot 2025-10-08 at 9 15 38 PM" src="https://github.com/user-attachments/assets/8eff22ba-f774-421f-8040-600cfbc46313" />
+
+
+| Trainer Review |
+| :---: |
+<img width="680" height="680" alt="Screenshot 2025-10-08 at 9 15 56 PM" src="https://github.com/user-attachments/assets/e43100d3-3993-472e-8d2b-a86e52109bdc" />
+
 
 ## 🛠️ Technical Architecture
 
 Mentora is powered by a modern, multi-stage AI pipeline to deliver high-quality, relevant content.
 
-![Architecture Diagram](assets/tech_diagram.png)
+**Architecture Diagram**
+<img width="680" height="680" alt="Flow1 drawio-1" src="https://github.com/user-attachments/assets/9b90e4ab-c1f4-42b1-b647-bc3ceeef0fa9" />
 
-* [cite_start]**Text Extraction:** We use **PyMuPDF** and **BeautifulSoup** to parse and extract text from PDFs and websites. [cite: 22]
-* [cite_start]**Orchestration Framework:** The entire workflow is managed and orchestrated by **LangChain**. [cite: 22]
-* [cite_start]**Vector Storage:** Content is processed, chunked, and stored in **ChromaDB** for efficient retrieval. [cite: 22]
-* [cite_start]**Generative Core:** Course generation is handled by API calls to powerful Large Language Models, including **Google's Gemini API** and the **GROK API**. [cite: 22]
+
+
+**Text Extraction:** We use **PyMuPDF** and **BeautifulSoup** to parse and extract text from PDFs and websites. [cite: 22]
+**Orchestration Framework:** The entire workflow is managed and orchestrated by **LangChain**. [cite: 22]
+**Vector Storage:** Content is processed, chunked, and stored in **ChromaDB** for efficient retrieval. [cite: 22]
+**Generative Core:** Course generation is handled by API calls to powerful Large Language Models, including **Google's Gemini API** and the **GROK API**.
 
 ## ⚙️ Getting Started
 
@@ -78,12 +91,19 @@ GROK_API_KEY="YOUR_GROK_API_KEY"
 python app.py
 ```
 
-## 👥 The Team (Strawhats)
+**6. Run the frontend in other Terminal:**
+```
+npm start
+```
 
-* [cite_start]**Vidhun KS** [cite: 6]
-* [cite_start]**Loganand S** [cite: 6]
-* [cite_start]**Thilak L** [cite: 6]
-* [cite_start]**Gopi M** [cite: 6]
+##  The Team (Strawhats)
+
+- **Gopi M** - [GitHub Profile](https://github.com/Gopikrish-30)
+- **Thilak L** - [GitHub Profile](https://github.com/thilak0105)
+- **Vidhun KS** - [GitHub Profile](https://github.com/doraemon-21)
+- **Loganand S** - [GitHub Profile](https://github.com/loganand612)
+
+
 
 ## 📄 License
 
